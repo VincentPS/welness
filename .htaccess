@@ -1,0 +1,3 @@
+setEnv consumerKey 94be6ac0-55eb-4812-b433-6ada383e95eb
+setEnv consumerSecret JmcMgNzLUkmFV0CS4n0KYWeVlM5ETtcWRE9
+setEnv callback_uri http://localhost/welness/examples/garmin_callback.php
