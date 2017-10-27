@@ -1,0 +1,14 @@
+{
+  "name": "techgyani/garmin-wellness",
+  "description" : "Unofficial Oauth 1.0 adapter for garmin-wellness API",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0",
+    "league/oauth1-client": "~1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "techgyani\\OAuth1\\Client\\Server\\": "src/"
+    }
+  }
+}
