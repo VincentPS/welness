@@ -12,7 +12,7 @@ class Garmin extends Server
 {
 
     const API_URL = "https://connectapi.garmin.com/";
-    const USER_API_URL = "https://healthapi.garmin.com/wellness-api/rest/";
+    const USER_API_URL = "https://healthapi.garmin.com/wellness-api/rest";
 
     /**
      * Get the URL for retrieving temporary credentials.
