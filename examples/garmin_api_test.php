@@ -16,8 +16,8 @@ $server = new \techgyani\OAuth1\Client\Server\Garmin([
 
 
 $params = [
-    "uploadStartTimeInSeconds" => time(),
-    "uploadEndTimeInSeconds" => time() + (24*60*60)
+    "uploadStartTimeInSeconds" => '1509022236',
+    "uploadEndTimeInSeconds" => '1509108636'
 ];
 
 $activitySummary = $server->getActivitySummary(unserialize($_SESSION['token_credentials']), $params);
