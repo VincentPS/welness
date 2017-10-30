@@ -21,4 +21,4 @@ $params = [
 ];
 
 $activitySummary = $server->getActivitySummary(unserialize($_SESSION['token_credentials']), $params);
-var_dump($activitySummary);
+var_dump(json_decode($activitySummary));
